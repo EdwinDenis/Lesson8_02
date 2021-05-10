@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+
+/* ======================================== */
+
+body{
+    width:100%;
+    height: 100%;
+    background: #6C6C6C;
+    padding: 20px 0 20px;
+ 
+}
+
+.conteiner{
+    max-width: 1600px;
+    height: 1400px;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 0 auto;
+    background: #E2E7EC;
+    padding-top: 91px;
+}
+
+/* ======================================== */
+
+.content{
+    width: 75%;
+    height:1100px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.big_box{
+    width: 66%;
+    height: 540px;
+    background-image: url('../images/main-picture.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    padding: 0 0 43px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.small_box{
+    width: 32%;
+    height: 540px;
+    background: #fff;
+    position:relative;
+}
+
+/* ======================================== */
+
+.small_box > .picture{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.small_box > .pic1{
+    background-image: url('../images/picture-1.jpg');
+}
+
+.small_box > .pic2{
+    background-image: url('../images/picture-2.jpg');
+}
+
+.small_box > .pic3{
+    background-image: url('../images/picture-3.jpg');
+}
+
+.small_box > .pic4{
+    background-image: url('../images/picture-4.jpg');
+}
+
+/* ======================================== */
+
+.small_box_content{
+    width: 100%;
+    height: 290px;
+    padding: 30px 15px 30px 30px;
+    
+}
+
+.small_box_content h2{
+    margin-top: 20px;    
+}
+
+.small_box_content img{
+    position:absolute;
+    bottom:25px;
+    left:25px;   
+}
+
+/* ======================================== */
+
+.content h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.content h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+    
+}
+
+.content h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    color:#8F8F8F;
+}
+
+/* ======================================== */
+
+.big_box > h3{
+    margin-bottom: 24px;
+}
+
+/* ======================================== */
+
+.last_logo{
+    width: 75%;
+    height: 209px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_logo p{
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.last_logo img{
+    align-self: center;
+}
